@@ -34,11 +34,6 @@ header {
     margin-bottom: 20px;
 }
 
-footer {
-    color: white;
-    text-align: center;
-}
-
 h1 {
     font-family: 'Kumbh Sans', sans-serif;
 }
@@ -67,34 +62,7 @@ p {
 }
 
 .linha {
-    margin-top: 25px;
-}
-
-/* #icones{
-    margin-top: 100px;
-    position: relative;
-} */
-
-.rede {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: center; 
-    padding: 200px;
-    transform: translate(-50%, -50%); 
-    margin-top: 350px;
-}
-
-#twitter {
-    padding-left: 000px;
-} 
-
-#instagram {
-    padding-left: 200px;
-}
-
-#youtube {
-    padding-left: 400px;
+    margin-top: 15px;
 }
 
 #data_do_dia {
@@ -103,3 +71,22 @@ p {
     font-size: 12px;
     font-weight: 100;
 } 
+
+.rede {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rodape {
+    display: grid;
+    grid-template-columns: repeat(3, 12%);
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
